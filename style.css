@@ -1,11 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
+body, html {
+    height: 100%;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1721242086/240717-trump-ear-jokes-hero_du0thc') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 h1 {
-    color: #333;
+    font-size: 3em;
 }
