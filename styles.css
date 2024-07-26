@@ -23,12 +23,15 @@ h1 {
 }
 
 iframe {
-    width: 80%;
-    height: 400px;
+    width: 90%;
+    height: 500px;
     margin: 20px 0;
 }
 
 .social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -40,7 +43,6 @@ iframe {
     background-size: cover;
     border-radius: 50%;
 }
-
 
 .dex-button {
     background-image: url('https://play-lh.googleusercontent.com/oZa1eCSB6-6c9dzTOQDtovSLgDyg_WY-GZSqab2TALM5Dysbx7jXlvkBofCCzoNKmxN1');
