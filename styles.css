@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
 body, html {
     height: 100%;
     margin: 0;
@@ -17,4 +19,30 @@ body, html {
 
 h1 {
     font-size: 3em;
+    cursor: pointer;
+}
+
+iframe {
+    width: 80%;
+    height: 400px;
+    margin: 20px 0;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.twitter-button i, .telegram-button i {
+    font-size: 2em;
+    color: white;
+    line-height: 50px;
 }
