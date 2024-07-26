@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRUMPGOGH Token</title>
+    <title>TRUMPGOGH Token CTO</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function copyToClipboard() {
+            const text = "EAUWxjMzAB3qZ2gawF22CWHufVD8AKcSZN4JBP8YGKd1";
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Ticker copied to clipboard!');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+    </script>
 </head>
 <body>
     <div class="content">
-        <h1>#TRUMPGOGH</h1>
+        <h1 onclick="copyToClipboard()">#TRUMPGOGH</h1>
+        <iframe src="https://birdeye.so/tv-widget/EAUWxjMzAB3qZ2gawF22CWHufVD8AKcSZN4JBP8YGKd1?chain=solana&amp;chartType=candle&amp;chartInterval=3&amp;chartLeftToolbar=hide" frameborder="0" allowfullscreen=""></iframe>
+        <div class="social-buttons">
+            <a href="https://dexscreener.com/solana/EAUWxjMzAB3qZ2gawF22CWHufVD8AKcSZN4JBP8YGKd1" target="_blank" class="social-link dex-button" style="background-image: url('https://play-lh.googleusercontent.com/oZa1eCSB6-6c9dzTOQDtovSLgDyg_WY-GZSqab2TALM5Dysbx7jXlvkBofCCzoNKmxN1'); background-size: cover;"></a>
+            <a href="https://x.com/DonaldTrumpGogh" target="_blank" class="social-link twitter-button"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/trumpgoghcto" target="_blank" class="social-link telegram-button"><i class="fab fa-telegram"></i></a>
+        </div>
     </div>
 </body>
 </html>
