@@ -41,8 +41,19 @@ iframe {
     border-radius: 50%;
 }
 
+
+.dex-button {
+    background-image: url('https://play-lh.googleusercontent.com/oZa1eCSB6-6c9dzTOQDtovSLgDyg_WY-GZSqab2TALM5Dysbx7jXlvkBofCCzoNKmxN1');
+}
+
+.twitter-button, .telegram-button {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .twitter-button i, .telegram-button i {
     font-size: 2em;
     color: white;
-    line-height: 50px;
 }
