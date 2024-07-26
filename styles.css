@@ -64,6 +64,7 @@ iframe {
 .twitter-button i, .telegram-button i {
     font-size: 2em;
     color: white;
+    text-decoration:none;
 }
 
 footer {
